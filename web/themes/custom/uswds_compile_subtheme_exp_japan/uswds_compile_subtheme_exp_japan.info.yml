@@ -1,7 +1,7 @@
-name: USWDS-gulp Subtheme
+name: Exploring Japan - USWDS-compile Subtheme
 type: theme
-description: 'A subtheme of USWDS using USWDS-gulp.'
-core_version_requirement: ^10
+description: 'A subtheme of USWDS using USWDS-compile.'
+core_version_requirement: ^10 || ^11
 base theme: uswds
 
 # The following overrides will work if css is compiled to the root, update if different.

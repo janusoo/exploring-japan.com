@@ -13,7 +13,7 @@ uswds.settings.version = 3;
  * Path settings
  * Set as many as you need - see https://designsystem.digital.gov/documentation/getting-started/developers/phase-two-compile/#step-5-customize-path-settings
  */
-uswds.paths.dist.css = './assets/uswds/css';
+uswds.paths.dist.css = './css';
 uswds.paths.dist.sass = './sass';
 uswds.paths.dist.theme = './sass';
 uswds.paths.dist.img = './assets/uswds/img';

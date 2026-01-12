@@ -2,6 +2,7 @@
 
 # Compiled output
 assets/
+css/
 /tmp
 /out-tsc
 /bazel-out

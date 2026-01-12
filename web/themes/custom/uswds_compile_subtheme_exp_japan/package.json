@@ -4,10 +4,10 @@
   "description": "Dependencies for compiling the assets/styles",
   "main": "index.js",
   "scripts": {
-    "watch": "gulp watch",
-    "compile": "gulp compile",
+    "watch": "ddev npx gulp watch",
+    "compile": "ddev npx gulp compile",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "init": "gulp init"
+    "init": "ddev npx gulp init"
   },
   "dependencies": {
     "@uswds/uswds": "^3.13.0",

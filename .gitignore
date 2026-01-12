@@ -64,6 +64,12 @@
 /drupal.phar
 /drupal
 
+#  Node
+node_modules/
+package-lock.json
+npm-debug.log
+yarn-error.log
+
 # Ignore miscellaneouw
 .ddev/
 .idea/

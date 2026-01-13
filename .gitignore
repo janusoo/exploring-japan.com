@@ -24,6 +24,7 @@
 # Ignore drupal core (if not versioning drupal sources)
 /web/vendor
 /web/core
+/web/libraries/
 /web/modules/README.txt
 /web/modules/contrib
 /web/profiles/README.txt
@@ -53,6 +54,23 @@
 /web/update.php
 /web/web.config
 
+# Ignore build folders
+web/themes/*/build/
+web/modules/custom/oa_paragraphs/dist/
+
+# Ignore git hooks since they're now pulled down via the docksal init command.
+git-hooks/
+
+# Ignore test coverage
+coverage/
+.phpunit.result.cache
+
+# Ignore react
+react_redux_framework/
+react-redux-forms/
+react-forms/
+web/static/
+
 # Ignore vendor dependencies and scripts
 /vendor
 /composer.phar
@@ -64,6 +82,21 @@
 /drupal.phar
 /drupal
 
+# Ignore react
+react_redux_framework/
+react-redux-forms/
+react-forms/
+web/static/
+
+# Ignore OSX files
+*.DS_Store
+
+# Ignore sitemap
+/web/sitemap.xml
+
+.ddev/
+.github/
+
 #  Node
 node_modules/
 package-lock.json
@@ -73,3 +106,8 @@ yarn-error.log
 # Ignore miscellaneouw
 .ddev/
 .idea/
+.vscode
+/package-lock.json
+
+# Ignore login.gov certs and keys
+logingov/

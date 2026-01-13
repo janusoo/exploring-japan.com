@@ -1,1 +1,12 @@
-{}
+{
+  "scripts": {
+    "watch": "gulp watch",
+    "compile": "gulp compile",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "init": "gulp init"
+  },
+  "devDependencies": {
+    "gulp": "^5.0.1",
+    "gulp-cli": "^3.1.0"
+  }
+}

@@ -1,0 +1,10 @@
+@forward "uswds-theme-custom-settings";
+@forward "uswds";
+
+// Import Font Awesome scss
+@use "fontawesome/fontawesome";
+@use "fontawesome/brands";
+@use "fontawesome/solid";
+@use "fontawesome/regular";
+
+@forward "uswds-theme-custom-styles";

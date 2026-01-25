@@ -15,9 +15,9 @@ libraries-override:
 
 # Add the CSS to CKEditor, so that custom entries in "Style" will work.
 ckeditor_stylesheets:
-  - assets/uswds/css/styles.css
+  - css/styles.css
 ckeditor5-stylesheets:
-  - assets/uswds/css/styles.css
+  - css/styles.css
 
 regions:
   header_top: 'Above Header'

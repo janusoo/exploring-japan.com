@@ -110,6 +110,77 @@ in the form $setting: value,
 
   /*
   ----------------------------------------
+  Custom typeface tokens
+  ----------------------------------------
+  Add a new custom typeface token if
+  your project uses a typeface not already
+  defined by USWDS.
+  ----------------------------------------
+  USWDS defines the following tokens
+  by default:
+  ----------------------------------------
+  'georgia'
+  'helvetica'
+  'merriweather'
+  'open-sans'
+  'public-sans'
+  'roboto-mono'
+  'source-sans-pro'
+  'system'
+  'tahoma'
+  'verdana'
+  ----------------------------------------
+  Add as many new tokens as you have
+  custom typefaces. Reference your new
+  token(s) in the type-based font settings
+  using the quoted name of the token.
+
+  For example:
+
+  $theme-font-type-cond: 'example-font-token';
+
+  display-name:
+  The display name of your font
+
+  cap-height:
+  The height of a 500px `N` in Sketch
+  ----------------------------------------
+  You should change `example-[style]-token`
+  names to something more descriptive.
+  ----------------------------------------
+
+  $theme-typeface-tokens: (
+    example-serif-token: (
+      display-name: "Example Serif Display Name",
+      cap-height: 364px,
+    ),
+    example-sans-token: (
+      display-name: "Example Sans Display Name",
+      cap-height: 364px,
+    ),
+  ),
+  ----------------------------------------
+  */
+
+  $theme-typeface-tokens: (
+    "open-sans": (
+      display-name: "Open Sans",
+      cap-height: 364px,
+    ),
+  ),
+
+  /*
+  ----------------------------------------
+  Font browser compatibility
+  ----------------------------------------
+  Output additional font formats (woff and ttf) to support IE11.
+  ----------------------------------------
+  */
+
+  $theme-font-browser-compatibility: true,
+
+  /*
+  ----------------------------------------
   Type-based font settings
   ----------------------------------------
   Set the type-based tokens for your
